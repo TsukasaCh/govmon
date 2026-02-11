@@ -1,0 +1,16 @@
+{
+  "name": "govmon",
+  "version": "1.0.0",
+  "description": "Government VPS Monitoring System",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node server/server.js",
+    "seed": "node server/seed.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "node-cron": "^3.0.3",
+    "ws": "^8.18.0"
+  }
+}
